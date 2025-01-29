@@ -14,7 +14,7 @@
     padding: 1em;
     margin: 0.625em;
     border-radius: 0.5em;
-    background-color: #121212;
+    background-color: var(--container-color);
 }
 
 .header__navigation .navigation{
@@ -51,7 +51,7 @@
     width: 364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #242424;
+    background-color: var(--subcontainer-color);
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -99,7 +99,7 @@
     padding: 1em;
     margin: 0.625em;
     border-radius: 0.5em;
-    background-color: #121212;
+    background-color: var(--container-color);
 }
 
 .body__navigation .body__text{
@@ -108,7 +108,7 @@
     display: table-column;
     justify-content:space-between;
     font-weight: 600;
-    padding-bottom: 40em;
+    padding-bottom: 37em;
 }
 
 .body__text .body__text__title{
