@@ -15,7 +15,6 @@
     margin: 0.625em;
     border-radius: 0.5em;
     background-color: #121212;
-    padding: 0.75em;
 }
 
 .header__navigation .navigation{
@@ -88,4 +87,35 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+/* Body */
+
+.body__navigation{
+    display: flex;
+    height: 50em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin: 0.625em;
+    border-radius: 0.5em;
+    background-color: #121212;
+}
+
+.body__navigation .body__text{
+    font-family: var(--font-dm-sans);
+    color:#fff;
+    display: table-column;
+    justify-content:space-between;
+    font-weight: 600;
+    padding-bottom: 40em;
+}
+
+.body__text .body__text__title{
+    font-size: 2em;
+}
+
+.body__text .body__text__subtitle{
+    font-size: 1.5em;
+    margin-top: 3.125em;
 }
